@@ -1,10 +1,11 @@
-# This is a placeholder class.
+include homebrew
+
 class opencv {
-  require homebrew
 
   homebrew::tap { 'homebrew/science': }
 
   package { 'opencv':
-    ensure => 'installed',
+    ensure  => 'present',
+    require => Homebrew::Tap['homebrew/science'],
   }
 }
