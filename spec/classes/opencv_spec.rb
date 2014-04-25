@@ -4,6 +4,6 @@ require 'spec_helper'
 # or read http://rspec-puppet.com/tutorial/
 describe 'opencv' do
   it do
-    should contain_package('opencv')
+    should contain_package('homebrew/science/opencv')
   end
 end

@@ -2,7 +2,7 @@
 
 This module will install OpenCV via Homebrew.
 
-[![Build Status](https://travis-ci.org/gaahrdner/puppet-.png?branch=master)](https://travis-ci.org/gaahrdner/puppet-template)
+[![Build Status](https://travis-ci.org/gaahrdner/puppet-opencv.png?branch=master)](https://travis-ci.org/gaahrdner/puppet-opencv)
 
 ## Usage
 
