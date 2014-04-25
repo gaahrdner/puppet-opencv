@@ -5,7 +5,8 @@ class opencv {
   homebrew::tap { 'homebrew/science': }
 
   package { 'homebrew/science/opencv':
-    ensure  => 'present',
-    require => Homebrew::Tap['homebrew/science'],
+    ensure   => 'present',
+    provider => 'homebrew',
+    require  => Homebrew::Tap['homebrew/science'],
   }
 }
